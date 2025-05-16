@@ -2,7 +2,7 @@
 
 This project is an AI-powered assistant that allows users to upload multiple PDF research documents and receive accurate, context-based answers to their natural language questions. It combines PDF processing, semantic search, and large language models to make document understanding easy and interactive.
 
----
+
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is an AI-powered assistant that allows users to upload multiple PDF
 - Answer questions using `google/flan-t5-base` (Hugging Face Transformers)
 - Built with a simple and user-friendly Streamlit interface
 
----
+
 
 ## Tech Stack
 
@@ -25,11 +25,16 @@ This project is an AI-powered assistant that allows users to upload multiple PDF
 - Sentence Transformers
 - FAISS (Facebook AI Similarity Search)
 
----
+## 📁 Files Included
+
+- project.py → Core logic: loading PDFs, chunking, vector store, QA pipeline  
+- app.py → Streamlit frontend for user interaction    
+- dataset → Folder containing your PDF files
+
 
 ##  How to Run
 
 1. **Clone the repository**
-   ```bash
+   - bash
    git clone https://github.com/yourusername/personal-research-assistant.git
    cd personal-research-assistant
